@@ -27,10 +27,6 @@
 		"uglify": "uglifyjs --comments -o ./dist/bundles/ngx-leaflet.umd.min.js -- ./dist/bundles/ngx-leaflet.umd.js",
 		"watch": " watch 'npm run lint' ./src"
 	},
-	"files": [
-		"dist",
-		"src"
-	],
 	"peerDependencies": {
 		"@angular/core": ">=10",
 		"@angular/common": ">=10",
