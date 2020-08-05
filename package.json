@@ -29,7 +29,11 @@
 	},
 	"files": [
 		"dist",
-		"src"
+		"src",
+		"rollup.config.js",
+		"tsconfig.json",
+		"tslint.json",
+		"webpack.config.js"
 	],
 	"peerDependencies": {
 		"@angular/core": ">=9",
